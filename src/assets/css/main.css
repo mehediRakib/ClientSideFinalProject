@@ -1,0 +1,101 @@
+:root {
+    /* Main Color */
+    --themeColor: #21bf73;
+    --themeColorDark: #39B27B;
+    --themeLightColor: #56d598;
+    --secondaryColor: #B0EACD;
+    --themeDarkColor: #2E374F;
+    --themeWhiteColor: #ffffff;
+
+    /* Greyscale Color */
+    --lightColor: #9EA3AE;
+    --lightDeepColor-1: #9EA3AE;
+    --lightDeepColor-2: #FAF8F6;
+    --lightDeepColor-3: #D3D5DA;
+    --lightDeepColor-4: #9EA3AE;
+    --darkColor: #6C727F;
+    --darkDeepColor-1: #4D5461;
+    --darkDeepColor-2: #394150;
+    --darkDeepColor-3: #212936;
+    --darkDeepColor-4: #0B0A0F;
+
+    /* Typography */
+    --headline-1: 52px;
+    --headline-2: 40px;
+    --headline-3: 32px;
+    --headline-4: 24px;
+    --bodyXLarge: 20px;
+    --bodyLarge: 18px;
+    --bodyMedium: 16px;
+    --bodySmal: 14px;
+    --bodyXSmal: 10px;
+}
+
+
+.section-bottom{
+    margin-top: 80px;
+}
+.bodyMedium{
+  font-size: var(--bodyMedium);
+}
+
+.bodySmall{
+   font-size:var(--bodySmal) ;
+}
+.bodyLarge{
+    font-size:var(--bodyLarge) ;
+}
+
+.headLine2{
+    font-size: var(--headline-2);
+}
+.btn-success{
+    border-color: var(--themeColor)!important;
+    background-color: var(--themeColor);
+}
+
+.footer{
+    background-color: #2E374F;
+    color: white;
+}
+
+.profilePic{
+    border-radius: 100%;
+    margin:auto;
+    display:inline-block;
+    width: 25%;
+    height: 25%;
+    cursor: pointer;
+    border: 1px solid dodgerblue;
+
+}
+
+.bgImage{
+    background-image: url("https://www.shutterstock.com/image-vector/3d-background-products-display-green-600nw-1923267833.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin:0;
+
+}
+.color{
+    color: rgb(0 0 0);/* Choose your vibrant color */
+    font-family: 'Open Sans', sans-serif; /* Use an appealing font */
+    font-size: 40px; /* Adjust font size as needed */
+    font-weight: bold; /* Apply bold style */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation:fadeIn 5s;
+}
+
+.fileInput{
+    display:none;
+}
+
+
+.image{
+    height:400px;
+    width: 400px;
+
+}
+
+
